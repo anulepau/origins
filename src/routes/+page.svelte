@@ -2,6 +2,7 @@
   import Artifact from '../components/Artifact.svelte';
 	import Background from '../assets/background2.svg';
 	import artifacts from '../data';
+	import { BACKGROUND_ALT } from '../constants';
 </script>
 
 <div class='container'>
@@ -12,7 +13,7 @@
 	{/each}
 </div>
 
-<img class='background' src={Background} alt='light blue sky with white clouds and a open box room with two windows'>
+<img class='background' src={Background} alt={BACKGROUND_ALT} />
 
 <style>
 	.svg-artifact {

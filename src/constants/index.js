@@ -1,0 +1,1 @@
+export const BACKGROUND_ALT = 'light blue sky with white clouds, a open box room with two windows in the middle';
