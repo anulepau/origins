@@ -1,4 +1,3 @@
-# (0, 0) ORIGINS
 ![1aa-cropped](./src/assets/1aa-cropped.png)
 
 ## About
