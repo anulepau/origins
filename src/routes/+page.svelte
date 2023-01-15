@@ -1,28 +1,32 @@
 <script>
   import Artifact from '../components/Artifact.svelte';
 	import Background from '../assets/background2.svg';
-	import Couch from '../assets/couch.svg';
-	import Luna from '../assets/luna.svg';
+	import artifacts from '../data';
 </script>
 
-<Artifact top={20} left={20} width={100} height={100} >
-	<img class='artifact' src={Couch} alt='plushy neon pink couch'>
-</Artifact>
-
-<Artifact top={20} left={20} width={100} height={100} >
-	<img class='artifact' src={Luna} alt='black cat plushie with crescent moon on forehead'>
-</Artifact>
+<div class='container'>
+	{#each artifacts as artifact}
+		<Artifact top={artifact.position.y} left={artifact.position.x} width={artifact.width} height={artifact.height} >
+			<img class='svg-artifact' src={artifact.src} alt={artifact.alt}>
+		</Artifact>
+	{/each}
+</div>
 
 <img class='background' src={Background} alt='light blue sky with white clouds'>
 
 <style>
-	.artifact {
-		user-select: none;
+	.svg-artifact {
+		position: absolute;
 		pointer-events: none;
-		max-width: 100px;
+		width: 100%;
+		height: 100%;
+	}
+	.container {
+		width: 614.40002;
+		height: 345.60001;
 	}
 	.background {
-		width: 75%;
-		height: 75%;
+		width: 100%;
+		height: 100%;
 	}
 </style>

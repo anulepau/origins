@@ -1,12 +1,12 @@
 <script>
-	export let left = 20;
-	export let top = 20;
+	export let left = 550;
+	export let top = 100;
 	export let width = 100;
 	export let height = 100;
 	
 	let moving = false; 
 	
-	function move(e) {
+	const move = (e) => {
 			if (moving) {
 				left += e.movementX;
 				top += e.movementY;
@@ -16,16 +16,15 @@
 
 <svelte:window on:mouseup={() => moving=false} on:mousemove={move}  />
 
-<section on:mousedown={() => moving=true} style="left: {left}px; top: {top}px; width:{width}px; height:{height}px" class="item">
+<section on:mousedown={() => moving=true} style="left: {left}px; top: {top}px; width:{width}px; height:{height}px" class="artifact">
 	<slot></slot>
 </section>
 
 <style>
-	.item {
-		user-select: none;
+	.artifact {
 		position: absolute;
+		user-select: none;
 		border: none;
-		text-align: center;
 		background: none; 
 		cursor: move;
 	}
