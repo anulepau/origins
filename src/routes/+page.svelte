@@ -12,7 +12,7 @@
 	{/each}
 </div>
 
-<img class='background' src={Background} alt='light blue sky with white clouds'>
+<img class='background' src={Background} alt='light blue sky with many white clouds'>
 
 <style>
 	.svg-artifact {
