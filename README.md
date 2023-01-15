@@ -10,7 +10,7 @@
 
 ![origins-gif](./src/assets/origins-gif.gif)
 
-On the web interface, users will be able to enter their room and access furniture and decor items via search/filter by artifact tags. Each piece – each one a contribution from individual Asian American players – can be selected, dropped into their room and dragged within the room. Artifacts can be rotated, flipped and may come with an assortment of colors to choose from. Artifacts will contain metadata about the piece, written and submitted by the original contributors, that the user can flip through. Users can request their own item with special metadata of their own (that will be shared with others), via simple submission form on the webpage. 
+On the web interface, users will be able to enter their room and access furniture and decor items via search/filter by artifact tags. Each piece – each one a contribution from individual players – can be selected, dropped into their room and dragged and repositioned within the room. Artifacts can be rotated, flipped and may come with an assortment of colors to choose from. Artifacts will contain metadata about the piece, written and submitted by the original contributors, that the user can flip through. Users can request their own item with special metadata of their own (that will be shared with others), via simple submission form on the webpage. 
 
 ### Credits 
 - MeeNa (moaw) Ko • Art Lead • [Website](https://moaw.art)
