@@ -6,6 +6,7 @@ const config: UserConfig = {
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
 	},
+	// comment out below 'server' property if using MacOS
 	server: {
     watch: {
         usePolling: true
