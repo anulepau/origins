@@ -22,7 +22,7 @@
 		max-width: 100px;
 	}
 	.background {
-		width: 125%;
-		height: 125%;
+		width: 75%;
+		height: 75%;
 	}
 </style>
