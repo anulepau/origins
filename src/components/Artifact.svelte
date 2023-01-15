@@ -1,8 +1,8 @@
 <script>
 	export let left = 30;
 	export let top = 30;
-	export let width = 50;
-	export let height = 50;
+	export let width = 100;
+	export let height = 100;
 	
 	let moving = false; 
 	
@@ -34,7 +34,7 @@
 		position: absolute;
 		border: none;
 		text-align: center;
-		background: white; 
+		background: none; 
 		cursor: move;
 	}
 </style>
