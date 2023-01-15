@@ -1,5 +1,5 @@
 # (0, 0) ORIGINS
-![credits](./src/assets/1aa-cropped.png)
+![1aa-cropped](./src/assets/1aa-cropped.png)
 
 ## About
 
