@@ -1,6 +1,6 @@
 <script>
   import Artifact from '../components/Artifact.svelte';
-	import Background from '../assets/background1.svg';
+	import Background from '../assets/background2.svg';
 	import Couch from '../assets/couch.svg';
 	import Luna from '../assets/luna.svg';
 </script>
